@@ -4,7 +4,7 @@ Show loading before loading your react component. It uses React hooks
 
 ## Install
 ```
-npm i wviveiro/use-loader
+npm i use-loader
 ```
 
 ## Usage

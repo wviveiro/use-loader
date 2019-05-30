@@ -1,6 +1,7 @@
 # useLoader
 
-Show loading before loading your react component. It uses React hooks
+Basic loading component to be used while your function is not ready to be rendered.
+It is to be used with react hook components.
 
 ## Install
 ```

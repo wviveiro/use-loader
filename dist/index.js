@@ -49,14 +49,14 @@ var useLoader = function useLoader() {
   };
 
   var setError = (0, _react.useCallback)(function (_error) {
-    _setError(_error);
-
     _setLoaded(true);
+
+    _setError(_error);
   }, []);
   var setLoaded = (0, _react.useCallback)(function (l) {
-    _setError(false);
-
     _setLoaded(l);
+
+    _setError(false);
   }, []);
   return [{
     isLoaded: isLoaded,

@@ -15,8 +15,8 @@ const useLoader = () => {
     const notReady = () => !isLoaded() || isError();
 
     const setError = useCallback((_error) => {
-        _setLoaded(true);
         _setError(_error);
+        _setLoaded(true);
     }, []);
 
     const setLoaded = useCallback((l) => {
